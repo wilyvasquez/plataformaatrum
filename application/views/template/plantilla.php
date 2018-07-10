@@ -1,0 +1,9 @@
+<?php
+	$this->load->view('template/css');
+	$this->load->view('template/header');
+	$this->load->view('template/notificaciones');
+	$this->load->view($menu);
+	$this->load->view($contenido);
+	$this->load->view('template/footer');
+	$this->load->view('template/js');
+?>
