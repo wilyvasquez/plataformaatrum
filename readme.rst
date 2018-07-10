@@ -29,6 +29,9 @@ Tecnologias
 *******************
 
 1.- Codeignter
+
 2.- Boostrap
+
 3.- Javascript
+
 4.- Jquery
