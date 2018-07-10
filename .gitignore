@@ -8,6 +8,10 @@ application/logs/*
 
 !application/*/.htaccess
 
+# bower components
+bower_components/
+#-------------------------
+
 composer.lock
 
 user_guide_src/build/*
