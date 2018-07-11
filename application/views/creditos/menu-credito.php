@@ -61,7 +61,7 @@
         </a>
         <ul class="treeview-menu">
           <li><a href="<?= base_url() ?>clientes"><i class="fa fa-circle-o"></i> Registros</a></li>
-          <li><a href="<?= base_url() ?>user"><i class="fa fa-circle-o"></i> Nuevo</a></li>
+          <li><a href="<?= base_url() ?>cnuevo"><i class="fa fa-circle-o"></i> Nuevo</a></li>
         </ul>
       </li>
       <li class="treeview <?php if(!empty($reporte)) echo 'active' ?>">

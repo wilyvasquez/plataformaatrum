@@ -85,12 +85,13 @@ $route['clientes']   = 'CreditoCtr/clientes';
 $route['aclientes']  = 'CreditoCtr/activos_clientes';
 $route['pclientes']  = 'CreditoCtr/pausados_clientes';
 $route['atclientes'] = 'CreditoCtr/atrasado_clientes';
+$route['cnuevo']     = 'CreditoCtr/nuevo_cliente';
 
 /*pagos clientes*/
-$route['pagos/(:num)/(:num)'] = 'CreditoCtr/pagos_clientes/$1/$1';
-$route['detalles/(:num)']     = 'CreditoCtr/detalles_pago/$1';
-$route['PCliente']            = 'CreditoCtr/perfil_cliente';
-$route['imprimir']            = 'CreditoCtr/pagos_print';
+$route['pagos/(:num)']    = 'CreditoCtr/pagos_clientes/$1/$1';
+$route['detalles/(:num)'] = 'CreditoCtr/detalles_pago/$1';
+$route['pcliente/(:num)'] = 'CreditoCtr/perfil_cliente/$1';
+$route['imprimir']        = 'CreditoCtr/pagos_print';
 
 
 $route['prueba'] = 'CreditoCtr/prueba';

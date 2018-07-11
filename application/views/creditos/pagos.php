@@ -139,7 +139,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Trident</td>
@@ -156,7 +156,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Webkit</td>
@@ -171,7 +171,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Presto</td>
@@ -186,7 +186,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Misc</td>
@@ -201,7 +201,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Other</td>
@@ -216,7 +216,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Trident</td>
@@ -233,7 +233,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Trident</td>
@@ -250,7 +250,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Webkit</td>
@@ -265,7 +265,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Presto</td>
@@ -280,7 +280,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Misc</td>
@@ -295,7 +295,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Other</td>
@@ -310,7 +310,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="../../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="../detalles/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 </tbody>
                 <tfoot>

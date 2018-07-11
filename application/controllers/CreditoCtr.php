@@ -66,7 +66,8 @@ class CreditoCtr extends CI_Controller {
 			'activos'   => "acredito", 
 			'pausados'  => "pcredito", 
 			'atrasados' => "atcredito",
-			'perfil'    => "Creditos"
+			'perfil'    => "Creditos",
+			'detalle'   => "pagos",
 		);
 		return $data;
 	}
@@ -141,10 +142,21 @@ class CreditoCtr extends CI_Controller {
 	{
 		$data = $this->array_cliente();
 		$data["link"]      = $data;
-		$data["creditos"]  = "active";
+		$data["clientes"]  = "active";
 		$data["title"]     = "Detalles pago";
 		$data["menu"]      = "creditos/menu-credito";
 		$data["contenido"] = "creditos/perfil";
+		$this->load->view('template/plantilla',$data);
+	}
+
+	public function nuevo_cliente()
+	{
+		$data = $this->array_cliente();
+		$data["link"]      = $data;
+		$data["clientes"]  = "active";
+		$data["title"]     = "Detalles pago";
+		$data["menu"]      = "creditos/menu-credito";
+		$data["contenido"] = "creditos/nuevo-cliente";
 		$this->load->view('template/plantilla',$data);
 	}
 
@@ -160,7 +172,8 @@ class CreditoCtr extends CI_Controller {
 			'activos'   => "aclientes", 
 			'pausados'  => "pclientes", 
 			'atrasados' => "atclientes",
-			'perfil'    => "Clientes"
+			'perfil'    => "Clientes",
+			'detalle'   => "pcliente"
 		);
 		return $data;
 	}

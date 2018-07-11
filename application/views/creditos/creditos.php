@@ -109,7 +109,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="pagos/1/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="<?= $link['detalle'] ?>/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Trident</td>
@@ -122,7 +122,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="pagos/1/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="<?= $link['detalle'] ?>/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Webkit</td>
@@ -133,7 +133,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="pagos/1/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="<?= $link['detalle'] ?>/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Presto</td>
@@ -144,7 +144,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="pagos/1/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="<?= $link['detalle'] ?>/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Misc</td>
@@ -155,7 +155,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="pagos/1/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="<?= $link['detalle'] ?>/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 <tr>
                   <td>Other browsers</td>
@@ -166,7 +166,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td><a href="pagos/1/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
+                  <td><a href="<?= $link['detalle'] ?>/1" class="btn btn-block btn-primary btn-xs">Detalles</a></td>
                 </tr>
                 </tbody>
                 <tfoot>
