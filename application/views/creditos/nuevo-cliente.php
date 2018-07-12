@@ -148,25 +148,25 @@
                 </div>
                 <div class="form-group">
                   <label for="foto">Foto del cliente (JPG, PNG, JPEG)</label>
-                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar Img" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Imagen no seleccionado" data-iconName="glyphicon glyphicon-picture" id="foto" required>
+                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar Img" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Imagen no seleccionado" data-iconName="glyphicon glyphicon-picture" id="foto" accept="image/*" required>
 
                   <p class="help-block">La foto debe tener un tamaño maximo de 500  KB.</p>
                 </div>
                 <div class="form-group">
                   <label for="h_izquierda">Huella Izquierda (JPG, PNG, JPEG)</label>
-                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar Img" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Imagen no seleccionado" data-iconName="glyphicon glyphicon-picture" id="h_izquierda" required>
+                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar Img" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Imagen no seleccionado" data-iconName="glyphicon glyphicon-picture" id="h_izquierda" accept="image/*" required>
 
                   <p class="help-block">La foto debe tener un tamaño maximo de 500  KB.</p>
                 </div>
                 <div class="form-group">
                   <label for="h_derecha">Huella Derecha (JPG, PNG, JPEG)</label>
-                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar Img" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Imagen no seleccionado" data-iconName="glyphicon glyphicon-picture" id="h_derecha" required>
+                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar Img" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Imagen no seleccionado" data-iconName="glyphicon glyphicon-picture" id="h_derecha" accept="image/*" required>
 
                   <p class="help-block">La foto debe tener un tamaño maximo de 500  KB.</p>
                 </div>
                 <div class="form-group">
                   <label for="pdfactura">Factura (PDF)</label>
-                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar PDF" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Archivo PDF no seleccionado" data-iconName="fa fa-file-pdf-o" id="pdfactura" required>
+                  <input type="file" class="form-control filestyle" data-buttonText="Seleccionar PDF" data-buttonName="btn-primary" data-buttonBefore="true" data-placeholder="Archivo PDF no seleccionado" data-iconName="fa fa-file-pdf-o" id="pdfactura" accept=".pdf"  required>
 
                   <p class="help-block">El archivo debe tener un tamaño maximo de 500  KB.</p>
                 </div>
