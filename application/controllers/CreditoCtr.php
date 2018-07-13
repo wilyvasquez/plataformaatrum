@@ -23,6 +23,19 @@ class CreditoCtr extends CI_Controller {
 		$this->load->view('template/plantilla',$data);
 	}
 
+	public function cprincipal()
+	{
+		$data = $this->array_credito();
+		$data["link"]      = $data;
+		$data["principal"]  = "active";
+		$data["contenido"] = "creditos/principal-creditos";
+		$data["menu"]      = "creditos/menu-credito";
+
+		$data["title"]     = "Registro Créditos";
+		$this->load->view('template/plantilla',$data);
+		$this->load->view('admin/js-donat');
+	}
+
 	public function activos_creditos()
 	{
 		$data = $this->array_credito();
@@ -89,6 +102,17 @@ class CreditoCtr extends CI_Controller {
 		$data["title"]     = "Detalles pago";
 		$data["menu"]      = "creditos/menu-credito";
 		$data["contenido"] = "creditos/calendario";
+		$this->load->view('template/plantilla',$data);
+	}
+
+	public function proceso_credito()
+	{
+		$data = $this->array_credito();
+		$data["link"]      = $data;
+		$data["principal"]  = "active";
+		$data["title"]     = "Proceso de creditos";
+		$data["menu"]      = "creditos/menu-credito";
+		$data["contenido"] = "creditos/proceso-credito";
 		$this->load->view('template/plantilla',$data);
 	}
 

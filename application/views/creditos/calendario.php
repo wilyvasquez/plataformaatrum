@@ -2,12 +2,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Calendar
-        <small>Control panel</small>
+        Calendario
+        <small>Control de pagos</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Calendar</li>
+        <li><a href="cprincipal"><i class="fa fa-home"></i> Principal</a></li>
+        <li class="active">Calendario</li>
       </ol>
     </section>
 

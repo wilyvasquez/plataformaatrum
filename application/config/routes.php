@@ -75,6 +75,7 @@ $route['perfilUser']  = 'AdminCtr/perfilUser';
 
 /*rutas controlador creditos*/
 $route['creditos']  = 'CreditoCtr';
+$route['cprincipal']= 'CreditoCtr/cprincipal';
 $route['principal'] = 'CreditoCtr/creditos';
 $route['acredito']  = 'CreditoCtr/activos_creditos';
 $route['pcredito']  = 'CreditoCtr/pausados_creditos';
@@ -82,6 +83,7 @@ $route['atcredito'] = 'CreditoCtr/atrasado_creditos';
 $route['ncredito']  = 'CreditoCtr/nuevo_credito';
 $route['icredito/(:num)']  = 'CreditoCtr/inf_credito/$1';
 $route['ccalendario']  = 'CreditoCtr/calendario';
+$route['cproceso']  = 'CreditoCtr/proceso_credito';
 
 /*rutas controlador clientes*/
 $route['clientes']   = 'CreditoCtr/clientes';

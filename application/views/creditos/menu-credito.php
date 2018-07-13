@@ -33,9 +33,9 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="<?= base_url() ?>estadistica"><i class="fa fa-circle-o"></i> Estadisticas</a></li>
+          <li><a href="<?= base_url() ?>cprincipal"><i class="fa fa-circle-o"></i> Estadisticas</a></li>
           <li><a href="<?= base_url() ?>ccalendario"><i class="fa fa-circle-o"></i> Calendario</a></li>
-          <li><a href="<?= base_url() ?>referencia"><i class="fa fa-circle-o"></i> Proceso credito</a></li>
+          <li><a href="<?= base_url() ?>cproceso"><i class="fa fa-circle-o"></i> Proceso credito</a></li>
         </ul>
       </li>
       <li class="header">CONSULTAS</li>
