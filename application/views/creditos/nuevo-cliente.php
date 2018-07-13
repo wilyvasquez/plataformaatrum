@@ -55,7 +55,10 @@
                 </div>
                 <div class="form-group">
                   <label for="rfc">Numero de RFC</label>
-                  <input type="text" class="form-control" id="rfc" placeholder="Numero de RFC" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-slack"></i></span>
+                    <input type="text" class="form-control" id="rfc" placeholder="Numero de RFC" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="curp">Curp</label>
@@ -63,15 +66,24 @@
                 </div>                  
                 <div class="form-group">
                   <label for="num_celular">Numero de Celular</label>
-                  <input type="text" class="form-control" id="num_celular" placeholder="Numero de Celular" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-mobile-phone"></i></span>
+                    <input type="text" class="form-control" id="num_celular" placeholder="Numero de Celular" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="f_nacimiento">Fecha de Nacimiento</label>
-                  <input type="text" class="form-control" id="f_nacimiento" placeholder="Fecha de Nacimiento" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                    <input type="text" class="form-control" id="f_nacimiento" placeholder="Fecha de Nacimiento" required>
+                  </div>
                 </div>                
                 <div class="form-group">
                   <label for="direccion">Direccion</label>
-                  <input type="text" class="form-control" id="direccion" placeholder="Direccion del cliente" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                    <input type="text" class="form-control" id="direccion" placeholder="Direccion del cliente" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="codigo_postal">Codigo Postal</label>
@@ -79,7 +91,10 @@
                 </div>
                 <div class="form-group">
                   <label for="fecha_vive">Fecha en que vive ahi</label>
-                  <input type="text" class="form-control" id="fecha_vive" placeholder="Fecha en que vive ahi" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                    <input type="text" class="form-control" id="fecha_vive" placeholder="Fecha en que vive ahi" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="t_vivienda">Tipo de vivienda</label>
@@ -112,19 +127,25 @@
                 </div>
                 <div class="form-group">
                   <label for="correo">Correo del Cliente</label>
-                  <input type="text" class="form-control" id="correo" placeholder="Correo del Cliente" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input type="text" class="form-control" id="correo" placeholder="Correo del Cliente" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="ocupacion">Ocupacion</label>
                   <input type="text" class="form-control" id="ocupacion" placeholder="Ocupacion" required>
                 </div>            
                 <div class="form-group">
-                  <label for="facebook">Facebook</label>
-                  <input type="text" class="form-control" id="facebook" placeholder="Facebook" required>
+                   <label for="facebook">Facebook</label>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-facebook"></i></span>
+                    <input type="text" class="form-control" id="facebook" placeholder="Facebook" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="n_cotizacion">Numero de cotizacion</label>
-                  <select class="form-control select2" style="width: 100%;">
+                  <select class="form-control select2" style="width: 100%;" id="n_cotizacion">
                     <option selected="selected">0001</option>
                     <option>Alaska</option>
                     <option>California</option>
@@ -192,16 +213,22 @@
                   <input type="text" class="form-control" id="n_empresa" placeholder="Nombre de la empresa" required>
                 </div>
                 <div class="form-group">
-                  <label for="direccion">Fecha de ingreso</label>
-                  <input type="text" class="form-control" id="direccion" placeholder="Direccion del cliente" required>
+                  <label for="f_ingreso">Fecha de ingreso</label>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                    <input type="text" class="form-control" id="f_ingreso" placeholder="Direccion del cliente" required>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="identificacion">Cargo del cliente</label>
-                  <input type="text" class="form-control" id="identificacion" placeholder="Tipo de identificacion" required>
+                  <label for="c_cliente">Cargo del cliente</label>
+                  <input type="text" class="form-control" id="c_cliente" placeholder="Cargo del cliente" required>
                 </div>
                 <div class="form-group">
-                  <label for="num_identificacion">Ingresos</label>
-                  <input type="text" class="form-control" id="num_identificacion" placeholder="Numero de identificacion" required>
+                  <label for="ingresos">Ingresos</label>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                    <input type="text" class="form-control" id="ingresos" placeholder="Ingresos" required>
+                  </div>
                 </div>
               </div>                
             </div>
@@ -238,7 +265,10 @@
                 </div>
                 <div class="form-group">
                   <label for="d_empresa">Direccion de la empresa</label>
-                  <input type="text" class="form-control" id="d_empresa" placeholder="Direccion de la empresa" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                    <input type="text" class="form-control" id="d_empresa" placeholder="Direccion de la empresa" required>
+                  </div>
                 </div>
               </div>                
             </div>
@@ -276,11 +306,17 @@
                 </div>
                 <div class="form-group">
                   <label for="r_fconocidos">Fecha de conocidos</label>
-                  <input type="text" class="form-control" id="r_fconocidos" placeholder="Fecha de conocidos" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                    <input type="text" class="form-control" id="r_fconocidos" placeholder="Fecha de conocidos" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="r_telefono">Telefono</label>
-                  <input type="text" class="form-control" id="r_telefono" placeholder="Telefono de la referencia" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-mobile-phone"></i></span>
+                    <input type="text" class="form-control" id="r_telefono" placeholder="Telefono de la referencia" required>
+                  </div>
                 </div>
               </div>                
             </div>
@@ -318,11 +354,17 @@
                 </div>
                 <div class="form-group">
                   <label for="r_fconocidos2">Fecha de conocidos</label>
-                  <input type="text" class="form-control" id="r_fconocidos2" placeholder="Fecha de conocidos" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                    <input type="text" class="form-control" id="r_fconocidos2" placeholder="Fecha de conocidos" required>
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="r_telefono2">Telefono</label>
-                  <input type="text" class="form-control" id="r_telefono2" placeholder="Telefono de la referencia" required>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-mobile-phone"></i></span>
+                    <input type="text" class="form-control" id="r_telefono2" placeholder="Telefono de la referencia" required>
+                  </div>
                 </div>
               </div>                
             </div>

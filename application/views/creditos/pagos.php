@@ -25,12 +25,13 @@
                   Menu <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" style="border-color: #67A6E5">
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Informacion del Credito</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="../icredito/1">Informacion del Credito</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Generar Cotizacion</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Estado de Cuenta</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Hoja de Pagos</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Actualizar fecha</a></li>
                   <li role="presentation" class="divider"></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Informacion del Cliente</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="../pcliente/1">Informacion del Cliente</a></li>
                 </ul>
               </div>
             </div>

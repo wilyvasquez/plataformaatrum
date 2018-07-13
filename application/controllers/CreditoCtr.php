@@ -59,6 +59,39 @@ class CreditoCtr extends CI_Controller {
 		$this->load->view('template/plantilla',$data);
 	}
 
+	public function nuevo_credito()
+	{
+		$data = $this->array_credito();
+		$data["link"]      = $data;
+		$data["creditos"]  = "active";
+		$data["title"]     = "Detalles pago";
+		$data["menu"]      = "creditos/menu-credito";
+		$data["contenido"] = "creditos/nuevo-credito";
+		$this->load->view('template/plantilla',$data);
+	}
+
+	public function inf_credito()
+	{
+		$data = $this->array_credito();
+		$data["link"]      = $data;
+		$data["creditos"]  = "active";
+		$data["title"]     = "Detalles pago";
+		$data["menu"]      = "creditos/menu-credito";
+		$data["contenido"] = "creditos/inf-credito";
+		$this->load->view('template/plantilla',$data);
+	}
+
+	public function calendario()
+	{
+		$data = $this->array_credito();
+		$data["link"]      = $data;
+		$data["principal"]  = "active";
+		$data["title"]     = "Detalles pago";
+		$data["menu"]      = "creditos/menu-credito";
+		$data["contenido"] = "creditos/calendario";
+		$this->load->view('template/plantilla',$data);
+	}
+
 	function array_credito()
 	{
 		$data = array(
@@ -88,7 +121,7 @@ class CreditoCtr extends CI_Controller {
 		$data = $this->array_cliente();
 		$data["link"]      = $data;
 		$data["clientes"]  = "active";
-		$data["title"]     = "Créditos Clientes";
+		$data["title"]     = "Clientes Activos";
 		$data["menu"]      = "creditos/menu-credito";
 		$data["contenido"] = "creditos/creditos";
 		$this->load->view('template/plantilla',$data);

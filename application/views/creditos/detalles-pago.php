@@ -7,7 +7,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-home"></i> Principal</a></li>
-        <li><a href="../pagos/1/1">Pagos Juan</a></li>
+        <li><a href="../pagos/1">Pagos Juan</a></li>
         <li class="active">Detalles pago</li>
       </ol>
     </section>

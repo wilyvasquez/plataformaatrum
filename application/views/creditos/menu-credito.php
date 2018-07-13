@@ -34,7 +34,7 @@
         </a>
         <ul class="treeview-menu">
           <li><a href="<?= base_url() ?>estadistica"><i class="fa fa-circle-o"></i> Estadisticas</a></li>
-          <li><a href="<?= base_url() ?>referencia"><i class="fa fa-circle-o"></i> Calendario</a></li>
+          <li><a href="<?= base_url() ?>ccalendario"><i class="fa fa-circle-o"></i> Calendario</a></li>
           <li><a href="<?= base_url() ?>referencia"><i class="fa fa-circle-o"></i> Proceso credito</a></li>
         </ul>
       </li>
@@ -49,7 +49,7 @@
         <ul class="treeview-menu">
           <li><a href="<?= base_url() ?>principal"><i class="fa fa-circle-o"></i> Registros</a></li>
           <!-- <li><a href="<?= base_url() ?>rcredito"><i class="fa fa-circle-o"></i> Registros</a></li> -->
-          <li><a href="<?= base_url() ?>motos"><i class="fa fa-circle-o"></i> Nuevo</a></li>
+          <li><a href="<?= base_url() ?>ncredito"><i class="fa fa-circle-o"></i> Nuevo</a></li>
         </ul>
       </li>
       <li class="treeview <?php if(!empty($clientes)) echo 'active' ?>">

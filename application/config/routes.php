@@ -79,6 +79,9 @@ $route['principal'] = 'CreditoCtr/creditos';
 $route['acredito']  = 'CreditoCtr/activos_creditos';
 $route['pcredito']  = 'CreditoCtr/pausados_creditos';
 $route['atcredito'] = 'CreditoCtr/atrasado_creditos';
+$route['ncredito']  = 'CreditoCtr/nuevo_credito';
+$route['icredito/(:num)']  = 'CreditoCtr/inf_credito/$1';
+$route['ccalendario']  = 'CreditoCtr/calendario';
 
 /*rutas controlador clientes*/
 $route['clientes']   = 'CreditoCtr/clientes';

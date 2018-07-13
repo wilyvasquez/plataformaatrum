@@ -21,13 +21,13 @@
           <!-- Profile Image -->
           <div class="box box-primary">
             <div class="box-body box-profile">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-4 col-xs-4">
                 <img class="profile-user-img img-responsive img-circle" src="<?= base_url() ?>assets/img/user_default.png" alt="User profile picture">
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-4 col-xs-4">
                 <img class="profile-user-img img-responsive img-circle" src="<?= base_url() ?>assets/img/user_default.png" alt="User profile picture">                
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-4 col-xs-4">
                 <img class="profile-user-img img-responsive img-circle" src="<?= base_url() ?>assets/img/user_default.png" alt="User profile picture">                
               </div>
 
@@ -105,29 +105,19 @@
                   <div class="user-block">
                     <img class="img-circle img-bordered-sm" src="<?= base_url() ?>assets/img/user_default.png" alt="user image">
                         <span class="username">
-                          <a href="#">Jonathan Burke Jr.</a>
+                          <a href="../pagos/1">Contrato Numero 000-000254.
+                            <span class="pull-right-container">
+                              <small class="label bg-primary">Terminado</small>
+                            </span>
+                          </a>
                           <!-- <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a> -->
                         </span>
-                    <span class="description">Shared publicly - 7:30 PM today</span>
+                    <span class="description">Generado - 2 de Junio de 2018 </span>
                   </div>
                   <!-- /.user-block -->
                   <p>
-                    Lorem ipsum represents a long-held tradition for designers,
-                    typographers and the like. Some people hate it and argue for
-                    its demise, but others ignore the hate as they create awesome
-                    tools to help create filler text for everyone from bacon lovers
-                    to Charlie Sheen fans.
+                    Motocicleta <strong>Gixxer Sf GP</strong>, modelo <strong>2018</strong>, numero de serie <strong>JHGDKJDHKJKHD</strong>, numero de motor <strong>KJHAHSOIHAS</strong> con un precio de contado de <strong>$25,000.00</strong>. Pago actual numero <strong>6/12</strong>.
                   </p>
-                  <!-- <ul class="list-inline">
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
-                    </li>
-                    <li class="pull-right">
-                      <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                        (5)</a></li>
-                  </ul> -->
-
-                  <!-- <input class="form-control input-sm" type="text" placeholder="Type a comment"> -->
                 </div>
                 <!-- /.post -->
 
@@ -136,30 +126,19 @@
                   <div class="user-block">
                     <img class="img-circle img-bordered-sm" src="<?= base_url() ?>assets/img/user_default.png" alt="User Image">
                         <span class="username">
-                          <a href="#">Sarah Ross</a>
+                          <a href="../pagos/1">Contrato Numero 000-000289. 
+                            <span class="pull-right-container">
+                              <small class="label bg-green">Cumpliendo</small>
+                            </span>
+                          </a>
                           <!-- <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a> -->
                         </span>
-                    <span class="description">Sent you a message - 3 days ago</span>
+                    <span class="description">Generado - 25 de Junio de 2018 </span>
                   </div>
                   <!-- /.user-block -->
                   <p>
-                    Lorem ipsum represents a long-held tradition for designers,
-                    typographers and the like. Some people hate it and argue for
-                    its demise, but others ignore the hate as they create awesome
-                    tools to help create filler text for everyone from bacon lovers
-                    to Charlie Sheen fans.
+                    Motocicleta <strong>Gixxer Sf GP</strong>, modelo <strong>2018</strong>, numero de serie <strong>JHGDKJDHKJKHD</strong>, numero de motor <strong>KJHAHSOIHAS</strong> con un precio de contado de <strong>$25,000.00</strong>. Pago actual numero <strong>6/12</strong>.
                   </p>
-
-                  <!-- <form class="form-horizontal">
-                    <div class="form-group margin-bottom-none">
-                      <div class="col-sm-9">
-                        <input class="form-control input-sm" placeholder="Response">
-                      </div>
-                      <div class="col-sm-3">
-                        <button type="submit" class="btn btn-danger pull-right btn-block btn-sm">Send</button>
-                      </div>
-                    </div>
-                  </form> -->
                 </div>
                 <!-- /.post -->
 
@@ -198,18 +177,6 @@
                     </div>
                     <!-- /.col -->
                   </div>
-                  <!-- /.row -->
-
-                  <!-- <ul class="list-inline">
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
-                    </li>
-                    <li class="pull-right">
-                      <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                        (5)</a></li>
-                  </ul> -->
-
-                  <!-- <input class="form-control input-sm" type="text" placeholder="Type a comment"> -->
                 </div>
                 <!-- /.post -->
               </div>
@@ -312,52 +279,99 @@
               <div class="tab-pane" id="cliente">
                 <form class="form-horizontal">
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <label for="nombre" class="col-sm-3 control-label">Nombre</label>
 
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Name">
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="nombre">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                    <label for="Direccion" class="col-sm-3 control-label">Direccion</label>
 
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="Direccion">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <label for="telefono" class="col-sm-3 control-label">Telefono</label>
 
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="telefono">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputExperience" class="col-sm-2 control-label">Experience</label>
+                    <label for="correo" class="col-sm-3 control-label">Correo</label>
 
-                    <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="correo">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Skills</label>
+                    <label for="genero" class="col-sm-3 control-label">Genero</label>
 
-                    <div class="col-sm-10">
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="genero">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="identificacion" class="col-sm-3 control-label">No Identificacion</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="identificacion">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="curp" class="col-sm-3 control-label">Curp</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="curp">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="rfc" class="col-sm-3 control-label">RFC</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="rfc">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="ocupacion" class="col-sm-3 control-label">Ocupacion</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="ocupacion">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="cp" class="col-sm-3 control-label">Codigo Postal</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="cp">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="ecivil" class="col-sm-3 control-label">Estado Civil</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="ecivil">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="t_vivienda" class="col-sm-3 control-label">Tipo vivienda</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="t_vivienda">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-3 control-label">Skills</label>
+
+                    <div class="col-sm-9">
                       <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <button type="submit" class="btn btn-danger">Submit</button>
+                    <div class="col-sm-offset-3 col-sm-9">
+                      <button type="submit" class="btn btn-primary">Actualizar</button>
                     </div>
                   </div>
                 </form>
@@ -366,52 +380,71 @@
               <div class="tab-pane" id="empresa">
                 <form class="form-horizontal">
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <label for="inputName" class="col-sm-3 control-label">Nombre</label>
 
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Name">
+                    <div class="col-sm-9">
+                      <input type="email" class="form-control" id="inputName" >
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                    <label for="inputEmail" class="col-sm-3 control-label">Giro de la empresa</label>
 
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    <div class="col-sm-9">
+                      <input type="email" class="form-control" id="inputEmail" >
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <label for="inputName" class="col-sm-3 control-label">Propiedad empresa</label>
 
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="inputName" >
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputExperience" class="col-sm-2 control-label">Experience</label>
+                    <label for="inputExperience" class="col-sm-3 control-label">Fecha de ingreso</label>
 
-                    <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="inputSkills" >
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Skills</label>
+                    <label for="inputSkills" class="col-sm-3 control-label">Ciclo de ingresos</label>
 
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="inputSkills" >
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
+                    <label for="inputSkills" class="col-sm-3 control-label">Cargo del cliente</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="inputSkills" >
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <button type="submit" class="btn btn-danger">Submit</button>
+                    <label for="inputSkills" class="col-sm-3 control-label">Tipo de empresa</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="inputSkills" >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-3 control-label">Ingresos</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="inputSkills" >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-3 control-label">Direccion empresa</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="inputSkills" >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-9">
+                      <button type="submit" class="btn btn-primary">Actualizar</button>
                     </div>
                   </div>
                 </form>
@@ -420,35 +453,57 @@
               <div class="tab-pane" id="referencias">
                 <form class="form-horizontal">
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <label for="inputName" class="col-sm-2 control-label">Nombre</label>
 
                     <div class="col-sm-10">
                       <input type="email" class="form-control" id="inputName" placeholder="Name">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                    <label for="inputEmail" class="col-sm-2 control-label">Tipo</label>
 
                     <div class="col-sm-10">
                       <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <label for="inputName" class="col-sm-2 control-label">Fecha</label>
 
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="inputName" placeholder="Name">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputExperience" class="col-sm-2 control-label">Experience</label>
+                    <label for="inputExperience" class="col-sm-2 control-label">Telefono</label>
 
                     <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                      <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-2 control-label">Nombre</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Skills</label>
+                    <label for="inputSkills" class="col-sm-2 control-label">Tipo</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-2 control-label">Fecha</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-2 control-label">Telefono</label>
 
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
@@ -456,16 +511,7 @@
                   </div>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <button type="submit" class="btn btn-danger">Submit</button>
+                      <button type="submit" class="btn btn-primary">Actualizar</button>
                     </div>
                   </div>
                 </form>
